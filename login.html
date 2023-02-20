@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/styles.css">
+</head>
+
+<body>
+    <div class="content-container">
+    <header class="mb-5">
+        <nav class="navbar navbar-expand bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">LOGO</a>
+              <form class="d-flex w-50" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary text-white" type="submit">Search</button>
+              </form>
+              <div class="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="listings.html">Listings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="profile.html">Profile</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+    </header>
+    <main>
+        <div class="m-3">
+            <ul class="nav nav-pills mb-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Register</a>
+                </li>
+              </ul>
+          <!-- Pills navs -->
+          
+          <!-- Pills content -->
+
+               <form action="submit" class="text-black">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="loginName">Email or username</label>
+                    <input type="email" id="loginName" class="form-control" />
+                </div>
+          
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" class="form-control" />
+                </div>
+                
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4 text-white">Sign in</button>
+          
+                </form>
+          </div>
+        </div>
+    </div>
+    </main>
+    
+
+</body>
+</html>

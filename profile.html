@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/styles.css">
+</head>
+
+<body>
+    <div class="content-container">
+        <header class="mb-5">
+            <nav class="navbar navbar-expand bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">LOGO</a>
+                  <form class="d-flex w-50" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                  </form>
+                  <div class="navbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="listings.html">Listings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-12 avatar-container"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-black text-center">
+                        <p>Your name</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-primary text-white w-50">Add new listing</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-secondary text-white w-50">Edit profile</button>
+                    </div>
+                </div> 
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h1 class="text-black">Your listings</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="your-listings-container"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>

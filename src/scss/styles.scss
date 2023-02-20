@@ -1,3 +1,23 @@
 @import "variables"; /* /src/scss/_variables.scss */
+@import "./components/index";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/functions";
+
+.content-container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.home-image-container {
+    background-image: url(/images.img/heather-ford-5gkYsrH_ebY-unsplash.jpg);
+    border-radius: 200px;
+    width: 90vw;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#previous-btn {
+    transform: scaleX(-1);
+}

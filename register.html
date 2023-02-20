@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/styles.css">
+</head>
+
+<body>
+    <div class="content-container">
+    <header class="mb-5">
+        <nav class="navbar navbar-expand bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">LOGO</a>
+              <form class="d-flex w-50" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+              <div class="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="listings.html">Listings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="profile.html">Profile</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+    </header>
+    <main>
+    <div class="m-3 ">
+        <ul class="nav nav-pills mb-4">
+            <li class="nav-item text-center">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="#">Register</a>
+            </li>
+
+        </ul>
+          <!-- Pills navs -->
+
+            
+              <form>
+                <div class="row">
+                    <!-- Name input -->
+                    <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="registerName">Name</label> 
+                        <input type="text" id="registerName" class="form-control" />
+                    </div>
+            
+                    <!-- Avatar input -->
+                    <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="registerAvatar">Avatar</label>
+                        <input type="text" id="registerAvatar" class="form-control" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <!-- Email input -->
+                    <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="registerEmail">Email</label>
+                        <input type="email" id="registerEmail" class="form-control" />
+                    </div>
+            
+                    <!-- Password input -->
+                    <div class="form-outline mb-4 col-sm-6">
+                        <label class="form-label" for="registerPassword">Password</label>
+                        <input type="password" id="registerPassword" class="form-control" />
+                    </div>
+                </div>
+                <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-3 text-white m-auto">Sign in</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+    </main>
+    
+</div>
+</body>
+</html>
