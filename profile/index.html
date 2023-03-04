@@ -5,51 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./dist/css/styles.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <script src="/src/js/index.mjs" defer type="module"></script>
 </head>
 
 <body>
     <div class="content-container">
-        <header class="mb-5">
+        <header class="mb-5 sticky-top bg-light">
             <nav class="navbar navbar-expand bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html">LOGO</a>
-                  <form class="d-flex w-50" role="search">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                  </form>
+                  <a class="nav-link text-danger m-1" href="/index.html">LOGO</a>
                   <div class="navbar">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="listings.html">Listings</a>
+                        <a class="nav-link active text-danger" aria-current="page" href="/listings">Listings</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="profile.html">Profile</a>
+                        <a class="nav-link active text-danger" href="/profile" id="profileNav">Profile</a>
                       </li>
                     </ul>
+                    <form class="d-flex ml-auto float-end bg-light" role="search" id="search">
+                      <input class="form-control border border-2 border-top-0 border-end-0 rounded-1" type="search" name="term" placeholder="Search for items" aria-label="Search">
+                      <button class="btn btn-secondary text-white" type="submit">Search</button>
+                    </form>
                   </div>
                 </div>
-              </nav>
+              </nav> 
         </header>
 
         <main>
             
             <div class="container mb-5">
                 <div class="row">
-                    <div class="col-12 avatar-container"></div>
+                    <div class="col-12" id="avatarContainer"></div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-black text-center">
+                    <div class="col-12 text-black text-center" id="nameContainer">
                         <p>Your name</p>
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-6">
-                        <button type="submit" class="btn btn-primary text-white w-50">Add new listing</button>
+                        <a href="/listing/create" type="submit" class="btn btn-primary text-danger w-50" id="profileButton">Add new listing</a>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="btn btn-secondary text-white w-50">Edit profile</button>
+                        <a href="/profile/edit" class="btn btn-secondary text-white w-50">Edit profile</a>
                     </div>
                 </div> 
                 <div class="row mt-5">
