@@ -10251,23 +10251,23 @@ textarea.form-control-lg {
   margin: auto;
 }
 
+main {
+  min-height: 68vh;
+}
+
 .home-image-container {
   background-image: url(/images.img/heather-ford-5gkYsrH_ebY-unsplash.jpg);
   border-radius: 200px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1000px;
+  max-width: 800px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .home-image-container {
-    width: 45vw;
+    width: 50vw;
     height: 35vh;
   }
-}
-
-#previous-btn {
-  transform: scaleX(-1);
 }
 
 .posts-home-container {
