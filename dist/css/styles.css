@@ -11,6 +11,7 @@
   --bs-red: #FF6383;
   --bs-green: #B3E6AF;
   --bs-gray: #F8F8F8;
+  --bs-beige: #EBDEB0;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -10253,11 +10254,16 @@ textarea.form-control-lg {
 .home-image-container {
   background-image: url(/images.img/heather-ford-5gkYsrH_ebY-unsplash.jpg);
   border-radius: 200px;
-  width: 90vw;
-  height: 35vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 1000px;
+}
+@media screen and (min-width: 800px) {
+  .home-image-container {
+    width: 45vw;
+    height: 35vh;
+  }
 }
 
 #previous-btn {
@@ -10270,6 +10276,14 @@ textarea.form-control-lg {
   width: auto;
   display: flex;
   flex-direction: column;
+}
+
+header ul li {
+  margin: 5px;
+}
+
+header ul li .active {
+  border-bottom: 2px solid #FF6383;
 }
 
 /*# sourceMappingURL=styles.css.map */

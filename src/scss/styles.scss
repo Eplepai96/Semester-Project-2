@@ -8,19 +8,25 @@
     margin: auto;
 }
 
-.home-image-container {
+$large: 800px;
+
+.home-image-container{
     background-image: url(/images.img/heather-ford-5gkYsrH_ebY-unsplash.jpg);
     border-radius: 200px;
-    width: 90vw;
-    height: 35vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1000px;
+    @media screen and (min-width: $large) {
+        // float: left;
+    width: 45vw;  
+    height: 35vh;    
+}
 }
 
-#previous-btn {
-    transform: scaleX(-1);
-}
+// #previous-btn {
+//     transform: scaleX(-1);
+// }
 
 .posts-home-container {
     clear: both;
@@ -28,4 +34,12 @@
     width: auto;
     display: flex;
     flex-direction: column;
+}
+
+header ul li {
+    margin: 5px;
+}
+
+header ul li .active {
+    border-bottom: 2px solid $red;
 }
