@@ -21,3 +21,11 @@
 #previous-btn {
     transform: scaleX(-1);
 }
+
+.posts-home-container {
+    clear: both;
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
