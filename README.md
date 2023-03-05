@@ -9,7 +9,7 @@ Would like an image of the page here, but currently no API responses due to an e
 Clothing auction webpage
 
 ### Description
-Museum webpage targeted towards kids and their families. Buildt during the second project at Noroff.
+Clothing auction page. Missing some important functionality and could use additional UI elements. All design elements have not yet been implemented. 
 
 #### Noroff
 Museum webpage
