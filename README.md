@@ -27,5 +27,5 @@ run npm start
 ### Contributing
 If you want to contribute, please open a pull request so the code can be reviewed.
 
-####Acknowledgments
+#### Acknowledgments
 Noroff School of Technology and Digital Media
