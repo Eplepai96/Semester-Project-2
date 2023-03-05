@@ -16,14 +16,9 @@ Museum webpage
 
 ## Built With
 HTML
-HTML 5 Badge
 Bootstrap
-css3 Badge
+Sass
 JavaScript
-
-VSCode
-
-GitHub
 
 ## Getting Started
 ### Installing
