@@ -16,12 +16,20 @@ Museum webpage
 
 ## Built With
 HTML
-CSS
+HTML 5 Badge
+Bootstrap
+css3 Badge
 JavaScript
 
+VSCode
+
+GitHub
+
 ## Getting Started
-#### Installing
-Clone the repo: https://github.com/Eplepai96/Semester-Project-2.git
+### Installing
+1. Clone the repo: https://github.com/Eplepai96/Semester-Project-2.git
+2. Install dependencies: npm i
+### Run
 run npm start
 
 ### Contributing
