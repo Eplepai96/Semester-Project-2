@@ -7,8 +7,6 @@ const action = "/bids"
 const method = "post"
 
 
-
-
 export async function bidOnPost(postData) {
     const queryString = document.location.search;
 

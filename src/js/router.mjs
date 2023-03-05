@@ -26,11 +26,11 @@ export default function router() {
     case '/listing/create/':
       listeners.setCreatePostFormListener()
       return;
-    case '/post/edit/':
-      listeners.setUpdatePostListener()
-      return;
+    // case '/post/edit/':
+    //   listeners.setUpdatePostListener()
+    //   return;
     case '/profile':
-      listeners.setUpdateProfileListener()
+      listeners.setDisplayProfileListener()
       return;
     case '/profile/edit/':
       listeners.setUpdateProfileListener()

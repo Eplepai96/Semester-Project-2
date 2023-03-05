@@ -22,3 +22,15 @@ export async function getProfile(name) {
 
   return await response.json();
 }
+
+export async function getProfilePosts(name) {
+  if (!name) {
+    throw new Error("Get requires a name");
+  }
+
+  const getProfilePostsURL = `${API_SOCIAL_URL}${action}/${name}/listings`;
+  
+  const response = await authFetch(getProfilePostsURL)
+
+  return await response.json();
+}

@@ -7,7 +7,7 @@ export async function setBidListener() {
     button.addEventListener("submit", (event) => {
       event.preventDefault()
       const bidInput = document.querySelector("#bidInput")
-      const amount = bidInput.innerText
+      const amount = bidInput.value
       
       console.log(amount)
       // Send it to the API
