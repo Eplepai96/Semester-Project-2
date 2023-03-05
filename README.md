@@ -1,6 +1,6 @@
 # Semester-Project-2
 
-Semester-Project-2-Repository
+## Semester-Project-2-Repository
 2nd year Semester Project at Noroff
 
 Auction app
