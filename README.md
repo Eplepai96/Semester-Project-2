@@ -8,23 +8,23 @@ Would like an image of the page here, but currently no API responses due to an e
 
 Clothing auction webpage
 
-###Description
+### Description
 Museum webpage targeted towards kids and their families. Buildt during the second project at Noroff.
 
-####Noroff
+#### Noroff
 Museum webpage
 
-##Built With
+## Built With
 HTML
 CSS
 JavaScript
 
-##Getting Started
-####Installing
+## Getting Started
+#### Installing
 Clone the repo: https://github.com/Eplepai96/Semester-Project-2.git
 run npm start
 
-###Contributing
+### Contributing
 If you want to contribute, please open a pull request so the code can be reviewed.
 
 ####Acknowledgments
