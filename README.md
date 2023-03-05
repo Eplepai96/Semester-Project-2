@@ -15,10 +15,10 @@ Museum webpage targeted towards kids and their families. Buildt during the secon
 Museum webpage
 
 ## Built With
-HTML
-Bootstrap
-Sass
-JavaScript
+* HTML
+* Bootstrap
+* Sass
+* JavaScript
 
 ## Getting Started
 ### Installing
