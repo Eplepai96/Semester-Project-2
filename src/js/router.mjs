@@ -7,7 +7,6 @@ export default function router() {
   
   switch (path) {
     case '/index.html':
-      listeners.setLogoutListener()
       listeners.setDisplayListingsListener()
       return;
     case '/listings/':
@@ -26,10 +25,11 @@ export default function router() {
     case '/listing/create/':
       listeners.setCreatePostFormListener()
       return;
-    // case '/post/edit/':
+    // case '/listing/edit/':
     //   listeners.setUpdatePostListener()
     //   return;
     case '/profile':
+      listeners.setLogoutListener()
       listeners.setDisplayProfileListener()
       return;
     case '/profile/edit/':

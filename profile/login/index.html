@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sitename | Login</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/dist/css/styles.css">
     <script src="/src/js/index.mjs" defer type="module"></script>
@@ -32,42 +32,76 @@
               </div>
             </div>
           </nav> 
-    </header>
-    <main>
-        <div class="m-3">
-            <ul class="nav nav-pills mb-4 justify-content-center">
-                <li class="nav-item">
-                  <a class="btn btn-primary text-danger m-2 active" aria-current="page" href="">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link border border-primary text-danger m-2" href="/profile/register">Register</a>
-                </li>
-              </ul>
-          <!-- Pills navs -->
-          
-          <!-- Pills content -->
+      </header>
+      <main>
+          <div class="m-3">
+              <ul class="nav nav-pills mb-4 justify-content-center">
+                  <li class="nav-item">
+                    <a class="btn btn-primary text-danger m-2 active" aria-current="page" href="">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border border-primary text-danger m-2" href="/profile/register">Register</a>
+                  </li>
+                </ul>
+            <!-- Pills navs -->
+            
+            <!-- Pills content -->
 
-               <form class="text-black" id="loginForm">
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                    <label class="form-label" for="loginEmail">Email</label>
-                    <input type="email" id="loginEmail" class="form-control" name="email" required/>
-                </div>
+                <form class="text-black" id="loginForm">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                      <label class="form-label" for="loginEmail">Email</label>
+                      <input type="email" id="loginEmail" class="form-control" name="email" required/>
+                  </div>
+            
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                      <label class="form-label" for="loginPassword">Password</label>
+                      <input type="password" id="loginPassword" class="form-control" name="password" required/>
+                  </div>
+                  
+                  <!-- Submit button -->
+                  <button class="btn btn-primary btn-block mb-4 text-danger">Sign in</button>
+            
+                  </form>
+            </div>
           
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                    <label class="form-label" for="loginPassword">Password</label>
-                    <input type="password" id="loginPassword" class="form-control" name="password" required/>
-                </div>
-                
-                <!-- Submit button -->
-                <button class="btn btn-primary btn-block mb-4 text-danger">Sign in</button>
-          
-                </form>
+      
+      </main>
+      <footer class="bg-success text-center text-white text-lg-start text-sm-start mt-auto">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-6 mb-4 mb-md-0">
+              <p class="text-uppercase">logo</p>
+            </div>
+            
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-6 mb-4 mb-md-0">
+      
+              <ul class="nav justify-content-end list-unstyled d-flex m-2">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook-square fa-lg text-white"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram fa-lg text-white"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-twitter-square fa-lg text-white"></i></a></li>
+              </ul>
+            </div>
+            <!--Grid column-->
           </div>
+          <!--Grid row-->
         </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span class="mb-3 mb-md-0 text-white">© 2023 Company, Inc</span>
+        </div>
+        <!-- Copyright -->
+      </footer>
     </div>
-    </main>
     
 
 </body>
